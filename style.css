@@ -21,6 +21,7 @@ h2{
     font-size: 1.3rem;
     color: chocolate;
     font-weight: 800;
+    text-decoration: underline;
 }
 button{
     padding: 0.7rem 1rem;
@@ -73,6 +74,7 @@ button:hover{
         position: fixed;
         top: 0;
         z-index: 9999;
+        background-color: rgb(55, 195, 223);
       }
       
       .nav-links {
@@ -205,9 +207,8 @@ button:hover{
     =================== */
       
 .splash{
-    width: 100vw;
+    
     height: 80vh;
-    margin: 0 auto;
     display: flex;
     justify-items: start;
     align-items: center;
@@ -230,36 +231,40 @@ button:hover{
     =================== */
 
 .services{
-    width: 100%;
+    
     height: 85vh;
-    background-color: aliceblue;
+    background-image: linear-gradient(to left,  rgb(53, 79, 92) , rgb(232, 250, 250));
+    border-radius: 12rem 0 0;
 }
 .services-text{
-    height: 7rem;
+    height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .services-text h2{
     font-size: 2.2rem;
+    padding-top: 4rem;
 }
 .service-card-container{
     max-width: 1240px;
+    margin: auto;
     height: 80%;
-    margin: 0 auto;
     display: flex;
-    justify-items: center;
+    gap: 1rem;
+    justify-content: center;
     align-items: center;
-    gap: 2rem;
+   
 }
 .service-card{
-    width: 30%;
+    width: 25%;
     height: 350px;
     background-color: #575250;
 }
 @media screen and (max-width: 768px){
     .services{
         height: auto;
+        border-radius: 0;
     }
     .service-card-container{
         flex-direction: column;
