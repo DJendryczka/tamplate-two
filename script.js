@@ -24,5 +24,24 @@ const navSlide = () => {
       burger.classList.toggle('toggle');
     });
   };
+
+  const navChangeColor = () => {
+    const nav = document.getElementById('navbar')
+    const navText = document.getElementById('nav-links')
+    const hamburger = document.getElementById('hamburger')
+    console.log('zmiana')
+    if(window.scrollY >=95){
+        nav.classList.add('bg-white')
+        navText.classList.add('nav-links-gray')
+        hamburger.classList.add('nav-links-gray')
+    }else{
+        nav.classList.remove('bg-white')
+        navText.classList.remove('nav-links-gray')
+        hamburger.classList.remove('nav-links-gray')
+    }
+}
+
+window.addEventListener('scroll', navChangeColor)
   
   navSlide();
+
