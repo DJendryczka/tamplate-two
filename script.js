@@ -44,4 +44,4 @@ const navSlide = () => {
 window.addEventListener('scroll', navChangeColor)
   
   navSlide();
-
+  
