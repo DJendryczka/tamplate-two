@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DiagTech experter på hemsidor</title>
+    <title>DiagTech-kontakt</title>
     <meta
-    name="description"
-    content="Behöver du en professionell och snygg hemsida till ditt företag eller personliga projekt?
+      name="description"
+      content="Behöver du en professionell och snygg hemsida till ditt företag eller personliga projekt?
     Vi på DiagTech Webb är experter på att skapa olika typer av hemsidor. 
     Låt oss hjälpa dig att ta din online närvaro till nästa nivå - kontakta oss idag för en offert!"
-  />
+    />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,10 +27,10 @@
         <a href="#">DiagTech</a>
       </div>
       <ul class="nav-links" id="nav-links">
-        <li><a href="#">HEM</a></li>
-        <li><a href="#services">TJÄNSTER</a></li>
-        <li><a href="#about">OM OSS</a></li>
-        <li><a href="#projects">PORTFOLIO</a></li>
+        <li><a href="index.html">HEM</a></li>
+        <li><a href="/index.html#services">TJÄNSTER</a></li>
+        <li><a href="/index.html#about">OM OSS</a></li>
+        <li><a href="/index.html#projects">PORTFOLIO</a></li>
       </ul>
       <div class="hamburger" id="hamburger">
         <div class="line1"></div>
@@ -39,46 +39,26 @@
       </div>
     </nav>
     <section class="contact">
-        <div class="service-container">
-          <div class="services-text">
-            <h2>Våra tjänster</h2>
-          </div>
-          <div class="service-card-container">
-            <div class="service-card">
-              <div class="card-image">
-                <img src="./images/web.png" alt="" />
-              </div>
-              <h3>Webutveckling</h3>
-              <p>
-                Vi har kompetens för att skapa och underhålla webbplatser och
-                webbapplikationer genom att använda olika teknologier och
-                programmeringsspråk.
-              </p>
-            </div>
-            <div class="service-card">
-              <div class="card-image">
-                <img src="./images/Po przeróbce 2.png" alt="" />
-              </div>
-              <h3>UI/UX och SEO</h3>
-              <p>
-                Vi kan designa användarvänliga responsiva gränssnitt, samtidigt
-                sökmotoroptimerar din webbplats för att öka synligheten på
-                sökmotorer.
-              </p>
-            </div>
-            <div class="service-card">
-              <div class="card-image">
-                <img src="./images/host.png" alt="" />
-              </div>
-              <h3>Hosting</h3>
-              <p>
-                När din nya hemsidan är klar kan vi lagra den och publicera på en
-                snabb server, sedan underhåller vi den.
-              </p>
-            </div>
-          </div>
+      <div class="contact-container">
+        <div class="contact-text">
+          <h2>Kontaktformuler</h2>
+          <p>Vid förfrågningar samt offert fyll i formuler nedan eller ring.</p>
         </div>
-      </section>
+        <form action="https://formsubmit.co/info@diagtech.se" method="POST">
+          <input type="email" name="email" required placeholder="Email" />
+          <input type="text" name="name" required placeholder="Ditt namn" />
+          <input type="tel" name="phone" required placeholder="Ditt tel. nr." />
+          <textarea
+            type="text"
+            name="message"
+            rows="10"
+            required
+            placeholder="Meddelande"
+          ></textarea>
+          <button type="submit">Skicka</button>
+        </form>
+      </div>
+    </section>
     <footer>
       <div class="footer-card">
         <svg
