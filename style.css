@@ -26,6 +26,9 @@ h2 {
   font-weight: 400;
   padding: 0.8rem 0;
 }
+p{
+    letter-spacing: 0.8px;
+}
 .logo a {
   font-size: 1.3rem;
   color: #f8d210;
@@ -345,7 +348,8 @@ nav a:hover {
 .about {
   width: 100%;
   min-height: 85vh;
-  background-image: linear-gradient(rgb(53, 79, 92), rgb(232, 250, 250));
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(241, 246, 246));
+  
 }
 .about-container {
   max-width: 1240px;
@@ -360,6 +364,7 @@ nav a:hover {
 
 .about-card {
   flex: 1 1 35%;
+ 
 }
 .about-card img {
   width: 100%;
@@ -367,9 +372,18 @@ nav a:hover {
 }
 .about-container h2 {
   padding: 3rem 2rem;
+  color: rgb(29, 27, 27);
 }
 .about-container p {
   padding: 1rem 2rem;
+  font-weight: 600;
+  color: rgb(29, 27, 27);
+}
+.about-container ul{
+    padding: 1rem 3.6rem;
+}
+.about-container li{
+    padding: 0.5rem;
 }
 @media screen and (max-width: 1024px) {
   .about-container {
@@ -378,6 +392,16 @@ nav a:hover {
     height: auto;
   }
   .about-card {
-    width: 90%;
+    padding: 0;
+  }
+  .about-container h2 {
+    padding: 2rem 0;
+  }
+  .about-container p {
+    padding: 0.5rem 0rem;
+    font-weight: 600;
+  }
+  .about-container ul{
+      padding: 1rem 1.5rem;
   }
 }
