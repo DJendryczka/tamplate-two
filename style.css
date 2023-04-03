@@ -313,9 +313,6 @@ nav a:hover {
   padding: 1rem ;
   transition: all 500ms;
 }
-.service-card:hover {
-  background-color: #f8f5f522;
-}
 .service-card p {
   padding: 1.5rem;
 }
