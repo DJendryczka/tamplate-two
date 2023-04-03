@@ -255,7 +255,7 @@ nav a:hover {
     =================== */
 
 .services {
-  height: 50vh;
+  height: 45vh;
   background-image: linear-gradient(
     to left,
     rgb(53, 79, 92),
@@ -269,8 +269,7 @@ nav a:hover {
 }
 .service-container {
   max-width: 1240px;
-  height: 60vh;
-  padding: 0 1rem;
+  margin-top: 1rem;
 }
 .services-text {
   width: 100%;
@@ -279,21 +278,20 @@ nav a:hover {
   justify-content: flex-start;
   align-items: center;
 }
-.services-text h2 {
+/* .services-text h2 {
   font-size: 2.2rem;
   padding-top: 6rem;
   padding-bottom: 3rem;
-}
+} */
 .service-card-container {
   display: flex;
-  gap: 2rem;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 2rem;
 }
 .card-image {
   width: 35%;
-  padding: 0.6rem;
+  padding: 1rem;
 }
 .card-image img {
   width: 100%;
@@ -302,7 +300,6 @@ nav a:hover {
 }
 .service-card {
   width: 30%;
-  height: 350px;
   background-color:transparent;
   display: flex;
   flex-direction: column;
@@ -327,6 +324,7 @@ nav a:hover {
   }
   .service-container {
     height: auto;
+    margin: 2rem;
   }
   .service-card {
     width: 88%;
