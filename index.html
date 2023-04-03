@@ -18,6 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <div class="bg"></div>
@@ -40,10 +41,10 @@
     </nav>
     <section class="splash">
       <div class="splash-text">
-        <h2>Vi på DiagTech</h2>
-        <h1>Designar och bygger</h1>
-        <h2>Moderna och responsiva hemsidor</h2>
-        <a href="contact.html"><button>Kontakta oss</button></a>
+        <h2 data-aos="fade-down" data-aos-duration="1000">Vi på DiagTech</h2>
+        <h1 data-aos="fade-right" data-aos-duration="2000">Designar och bygger</h1>
+        <h2 data-aos="fade-up" data-aos-duration="3000">Moderna och responsiva hemsidor</h2>
+        <a href="contact.html"><button data-aos="fade-left" data-aos-duration="3000">Kontakta oss</button></a>
       </div>
     </section>
     <section class="services" id="services">
@@ -52,7 +53,7 @@
           <h2>Våra tjänster</h2>
         </div> -->
         <div class="service-card-container">
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-up-right" data-aos-duration="2000">
             <div class="card-image">
               <img src="./images/web.png" alt="En dator icon." />
             </div>
@@ -62,7 +63,7 @@
               webbapplikationer genom att använda senaste teknologier.
             </p>
           </div>
-          <div class="service-card">
+          <div class="service-card" data-aos="flip-up" data-aos-duration="3000">
             <div class="card-image">
               <img
                 src="./images/Po przeróbce 2.png"
@@ -76,7 +77,7 @@
               sökmotorer.
             </p>
           </div>
-          <div class="service-card">
+          <div class="service-card" data-aos="fade-up-left" data-aos-duration="3000">
             <div class="card-image">
               <img src="./images/host.png" alt="En webbserver." />
             </div>
@@ -93,7 +94,7 @@
       <div class="about-container">
         <!-- <div class="services-text"></div> -->
 
-        <div class="about-card">
+        <div class="about-card" data-aos="fade-right" data-aos-duration="2000">
           <h2>Vilka är vi ?</h2>
           <p>
             DiagTech-Webbutveckling är ett företag bestående av personer som
@@ -111,16 +112,16 @@
             </li>
           </ul>
         </div>
-        <div class="about-card">
+        <div class="about-card" data-aos="flip-right" data-aos-duration="3000">
           <img
             src="./images/working.jpg"
             alt="Två personer pratar om arbetsuppgiften."
           />
         </div>
-        <div class="about-card">
+        <div class="about-card" data-aos="flip-up" data-aos-duration="3000">
           <img src="./images/team.jpg" alt="Tjejer arbetar på datorer." />
         </div>
-        <div class="about-card">
+        <div class="about-card" data-aos="fade-left" data-aos-duration="3000">
           <h2>Varför välja oss ?</h2>
           <p>
             Vi använder de senaste tekniska verktyg för att skapa webbplatser
@@ -143,8 +144,8 @@
     </section>
     <section class="projects" id="projects">
       <div class="project-container">
-        <div class="services-text"><h2>Kunder som har anlitat oss.</h2></div>
-        <div class="project-card">
+        <div class="services-text" data-aos="fade-right" data-aos-duration="1000"><h2>Kunder som har anlitat oss.</h2></div>
+        <div class="project-card" data-aos="fade-right" data-aos-duration="2000">
           <div class="project-card-overlay"><h2>Besök sidan</h2></div>
           <a href="https://bellastad.se"
             ><img
@@ -153,7 +154,7 @@
           /></a>
         </div>
 
-        <div class="project-card">
+        <div class="project-card" data-aos="fade-left" data-aos-duration="2000">
           <div class="project-card-overlay"><h2>Besök sidan</h2></div>
           <a href="https://skanorsservice.se"
             ><img
@@ -161,14 +162,14 @@
               alt="Första sidan av Skanörsservice hemsida."
           /></a>
         </div>
-        <div class="project-card">
+        <div class="project-card" data-aos="fade-up" data-aos-duration="2000">
           <div class="project-card-overlay"><h2>Pågående project</h2></div>
           <img
             src="./images/sweet.jpg"
             alt="Första sidan av The sweet paradise hemsida."
           />
         </div>
-        <div class="project-card">
+        <div class="project-card" data-aos="zoom-in" data-aos-duration="3000">
           <h2>Vill du veta hur din webbsida kan se ut ?</h2>
           <a href="contact.html"><button>Kontakta oss</button></a>
           <img src="" alt="" />
@@ -236,6 +237,10 @@
       <p class="copy">&copy; DiagTech 2023</p>
     </footer>
     <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?theme=white&always=1&showPolicyLink=1"
