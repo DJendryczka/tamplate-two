@@ -212,7 +212,7 @@ nav a:hover {
   top: 0;
   right: 0;
   width: 100%;
-  height: 65vh;
+  height: 75vh;
   background-image: url("./images/background.jpg");
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: multiply;
@@ -223,7 +223,7 @@ nav a:hover {
   z-index: -1;
 }
 .splash {
-  height: 65vh;
+  height: 75vh;
   display: flex;
   justify-items: start;
   align-items: end;
@@ -255,7 +255,7 @@ nav a:hover {
     =================== */
 
 .services {
-  height: 50vh;
+  height: 45vh;
   background-image: linear-gradient(
     to left,
     rgb(53, 79, 92),
@@ -269,8 +269,7 @@ nav a:hover {
 }
 .service-container {
   max-width: 1240px;
-  height: 60vh;
-  padding: 0 1rem;
+  margin-top: 1rem;
 }
 .services-text {
   width: 100%;
@@ -279,22 +278,20 @@ nav a:hover {
   justify-content: flex-start;
   align-items: center;
 }
-.services-text h2 {
+/* .services-text h2 {
   font-size: 2.2rem;
   padding-top: 6rem;
   padding-bottom: 3rem;
-}
+} */
 .service-card-container {
   display: flex;
-  gap: 2rem;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 2rem;
 }
 .card-image {
   width: 35%;
-  padding: 0.6rem;
-  margin-top: 2rem;
+  padding: 1rem;
 }
 .card-image img {
   width: 100%;
@@ -303,14 +300,11 @@ nav a:hover {
 }
 .service-card {
   width: 30%;
-  height: 400px;
   background-color:transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  padding: 1rem ;
   transition: all 500ms;
 }
 .service-card p {
@@ -327,6 +321,7 @@ nav a:hover {
   }
   .service-container {
     height: auto;
+    margin: 2rem;
   }
   .service-card {
     width: 88%;
@@ -455,6 +450,9 @@ nav a:hover {
 .project-card-overlay h2 {
   opacity: 0;
   transition: all 400ms;
+}
+.project-card-overlay a{
+  text-decoration: none;
 }
 .project-card-overlay:hover {
   background-color: #0088a7a9;
